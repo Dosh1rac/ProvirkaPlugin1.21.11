@@ -1,0 +1,19 @@
+name: CheckPlayer
+version: '${version}'
+author: Dosh1rac
+
+main: org.dosh1rac.CheckPlayer.CheckPlayer
+api-version: '1.21.11'
+load: POSTWORLD
+commands:
+  provirka:
+    description: Начать проверку игрока
+    usage: /provirka <ник>
+    permission: provirka.use
+  provirkastop:
+    description: Закончить проверку игрока
+    usage: /provirkastop <ник>
+    permission: provirka.stop
+  checkreload:
+    description: Reload config
+    permission: provirka.reload

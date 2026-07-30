@@ -1,0 +1,11 @@
+.idea/
+out/
+target/
+*.iml
+
+# Maven
+dependency-reduced-pom.xml
+
+# OS
+.DS_Store
+Thumbs.db
