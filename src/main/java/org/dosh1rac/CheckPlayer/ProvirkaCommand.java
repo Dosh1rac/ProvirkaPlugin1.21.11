@@ -1,6 +1,7 @@
 package org.dosh1rac.CheckPlayer;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Sound;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -90,6 +91,9 @@ public class ProvirkaCommand implements CommandExecutor {
                         nauseaAmplifier
                 )
         );
+
+        target.playSound(target.getLocation(), Sound.ENTITY_WITHER_SPAWN, 1.0f, 1.0f);
+
         return true;
     }
     
